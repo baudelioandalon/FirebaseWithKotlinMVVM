@@ -17,10 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        adapter =
-            mainAdapter(
-                this
-            )
+        adapter = mainAdapter(this)
         lifecycle.addObserver(viewModel)
         recyclerView.layoutManager =  LinearLayoutManager(this)
         recyclerView.adapter  = adapter

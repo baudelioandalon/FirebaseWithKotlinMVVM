@@ -13,12 +13,19 @@ class MainViewModel: ViewModel(), LifecycleObserver {
         }
         return mutableData
     }
+    fun destroyListener(){
+        repo.finishListener()
+    }
     fun getData(): MutableLiveData<MutableList<User>> {
         return mutableData
     }
     @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
     fun onCreate(){
       fetchUser()
+    }
+    @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)
+    fun onDestroy(){
+        destroyListener()
     }
 
 }

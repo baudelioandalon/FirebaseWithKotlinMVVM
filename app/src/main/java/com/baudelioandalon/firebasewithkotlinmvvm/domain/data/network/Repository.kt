@@ -4,14 +4,19 @@ import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import com.baudelioandalon.firebasewithkotlinmvvm.model.User
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ListenerRegistration
 
 class Repository{
+    private val docRef = FirebaseFirestore.getInstance().collection("Users")
+    private var registration: ListenerRegistration? = null
+    fun finishListener(){
+        registration?.remove()
+        Log.e("destroy listener", "correct")
+    }
     fun getUserData(): MutableLiveData<MutableList<User>>{
         val mutableData = MutableLiveData<MutableList<User>>()
         val listData : MutableList<User> = mutableListOf()
-        val firestore : FirebaseFirestore = FirebaseFirestore.getInstance()
-        val docRef = firestore.collection("Users")
-        docRef.addSnapshotListener { t, _ ->
+        registration = docRef.addSnapshotListener { t, _ ->
             if (t!!.documents.isNotEmpty()){
                     val data =
                         User(
@@ -35,4 +40,5 @@ class Repository{
         }
         return mutableData
     }
+
 }
