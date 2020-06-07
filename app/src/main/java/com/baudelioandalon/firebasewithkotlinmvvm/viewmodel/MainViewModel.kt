@@ -2,7 +2,7 @@ package com.baudelioandalon.firebasewithkotlinmvvm.viewmodel
 
 import androidx.lifecycle.*
 import com.baudelioandalon.firebasewithkotlinmvvm.domain.data.network.Repository
-import com.baudelioandalon.firebasewithkotlinmvvm.User
+import com.baudelioandalon.firebasewithkotlinmvvm.model.User
 
 class MainViewModel: ViewModel(), LifecycleObserver {
     private val repo = Repository()

@@ -1,10 +1,12 @@
-package com.baudelioandalon.firebasewithkotlinmvvm
+package com.baudelioandalon.firebasewithkotlinmvvm.ui.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.baudelioandalon.firebasewithkotlinmvvm.R
+import com.baudelioandalon.firebasewithkotlinmvvm.model.User
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.item_row.view.*
 

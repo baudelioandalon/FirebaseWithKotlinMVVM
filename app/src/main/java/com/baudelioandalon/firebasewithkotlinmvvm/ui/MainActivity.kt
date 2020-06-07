@@ -6,7 +6,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.baudelioandalon.firebasewithkotlinmvvm.R
-import com.baudelioandalon.firebasewithkotlinmvvm.mainAdapter
+import com.baudelioandalon.firebasewithkotlinmvvm.ui.adapters.mainAdapter
 import com.baudelioandalon.firebasewithkotlinmvvm.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.recyclerView
 
@@ -17,7 +17,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        adapter = mainAdapter(this)
+        adapter =
+            mainAdapter(
+                this
+            )
         lifecycle.addObserver(viewModel)
         recyclerView.layoutManager =  LinearLayoutManager(this)
         recyclerView.adapter  = adapter
