@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "727422244829",
+    "firebase_url": "https://fir-withkotlinmvvm.firebaseio.com",
+    "project_id": "fir-withkotlinmvvm",
+    "storage_bucket": "fir-withkotlinmvvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727422244829:android:6b0694bbc957d4b2ba8834",
+        "android_client_info": {
+          "package_name": "com.baudelioandalon.firebasewithkotlinmvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727422244829-7be6lmpo68det44mlu3g5ucfn22cosfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3KbeH8yxQPWNoqek8ue19BX2SRBHJLcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727422244829-7be6lmpo68det44mlu3g5ucfn22cosfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

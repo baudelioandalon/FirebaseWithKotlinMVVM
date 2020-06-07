@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="startBlue">#09C6DF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gris_super_bajo">#F6F4F5</color>
+    <color name="gris_super">#EAEEF2</color>
+    <color name="gris_middle">#D2DBE4</color>
+    <color name="gris_no_tan_super">#F5F7FA</color>
+
+    /colores version Allen
+    <color name="blue_light_allen">#DBECFD</color>
+    <color name="blue_light2_allen">#DCE8F6</color>
+    <color name="blue_light3_allen">#E9F0F8</color>
+    <color name="blue_low_allen">#A3DBF4</color>
+    <color name="blue_middle_allen">#63AFFB</color>
+    <color name="blue_middle2_allen">#5CADFB</color>
+    <color name="blue_strong_allen">#1E8DF9</color>
+    <color name="blue_strong2_allen">#419FFB</color>
+
+    <color name="green_strong_allen">#36B37D</color>
+    <color name="green_strong2_allen">#58E46E</color>
+    <color name="green_middle_allen">#7BEA8D</color>
+    <color name="green_light_allen">#A2F0AF</color>
+    <color name="green_light2_allen">#C1F5C9</color>
+
+    <color name="purple_strong_allen">#6085F5</color>
+    <color name="purple_middle_allen">#99B0F8</color>
+    <color name="purple_light_allen">#A3B9F9</color>
+    <color name="purple_light2_allen">#D9E2FC</color>
+
+    <color name="yellow_strong_allen">#FFD131</color>
+    <color name="yellow_middle_allen">#FFD339</color>
+    <color name="yellow_light_allen">#FFE073</color>
+    <color name="yellow_light2_allen">#FFF0BF</color>
+    <color name="yellow_light3_allen">#FFF5C7</color>
+</resources>
